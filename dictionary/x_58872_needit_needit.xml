@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="0a15b25b471f31100a5deb0f316d437d" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Target" max_length="20" name="target" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" default="Other" dependent="active" dependent_on_field="active" label="Other" mandatory="true" max_length="40" name="u_other" type="string" use_dependent_field="true"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for email" max_length="40" name="u_requested_for_email" type="string"/>
